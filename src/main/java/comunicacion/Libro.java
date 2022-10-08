@@ -54,15 +54,15 @@ public class Libro extends Escrito{
 	}
 
 
-	@Override
+	
 	int palabrasTotales(int parametro) {
 		return (getPaginas()*2)*parametro;
 	}
-	@Override
+	
 	String interpretacion() {
 		return getInterpretacion();
 	}
-	@Override
+	
 	public String toString() {
 		return super.getOrigen() + "\n"
 				+ super.getTitulo() + "\n"

@@ -25,15 +25,14 @@ public class Fabula extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	
-	@Override
 	int palabrasTotales(int parametro) {
 		return getPaginas()*parametro;
 	}
-	@Override
+	
 	String interpretacion() {
 		return getInterpretacion();
 	}
-	@Override
+	
 	public String toString() {
 		return super.getOrigen() + "\n"
 				+ super.getTitulo() + "\n"

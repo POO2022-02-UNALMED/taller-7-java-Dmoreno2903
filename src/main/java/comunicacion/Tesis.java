@@ -47,15 +47,15 @@ public class Tesis extends Escrito{
 		this.referencias = referencias;
 		this.interpretacion = interpretacion;
 	}
-	@Override
+	
 	int palabrasTotales(int par) {
 		return (getPaginas()*5)*par;
 	}
-	@Override
+	
 	String interpretacion() {
 		return getInterpretacion();
 	}
-	@Override
+	
 	public String toString() {
 		return super.getOrigen() + "\n"
 				+ super.getTitulo() + "\n"

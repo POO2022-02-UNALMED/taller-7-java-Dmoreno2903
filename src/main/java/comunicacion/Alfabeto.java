@@ -26,12 +26,12 @@ public class Alfabeto extends Pictograma{
 		return getLetras().length;
 	}
 	
-	@Override
+	
 	public String interpretacion() {
 		return getInterpretacion();
 	}
 	
-	@Override
+	
 	public String toString() {
 		String salida = null;
 		for(String word: letras)

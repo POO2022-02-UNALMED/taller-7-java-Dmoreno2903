@@ -28,15 +28,15 @@ public class Periodico extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	
-	@Override
+	
 	int palabrasTotales(int par) {
 		return (getPaginas()*10)*par;
 	}
-	@Override
+	
 	String interpretacion() {
 		return getInterpretacion();
 	}
-	@Override
+	
 	public String toString() {
 		return super.getOrigen() + "\n"
 				+ super.getTitulo() + "\n"
