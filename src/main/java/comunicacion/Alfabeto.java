@@ -1,3 +1,4 @@
+package comunicacion;
 public class Alfabeto extends Pictograma{
 	private static String letras[];
 	private String interpretacion;
