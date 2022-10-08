@@ -27,11 +27,11 @@ public class Fabula extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	
-	int palabrasTotales(int parametro) {
+	public int palabrasTotales(int parametro) {
 		return getPaginas()*parametro;
 	}
 	
-	String interpretacion() {
+	public String interpretacion() {
 		return getInterpretacion();
 	}
 	

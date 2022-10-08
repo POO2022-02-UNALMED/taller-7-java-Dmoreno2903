@@ -57,11 +57,11 @@ public class Libro extends Escrito{
 
 
 	
-	int palabrasTotales(int parametro) {
+	public int palabrasTotales(int parametro) {
 		return (getPaginas()*2)*parametro;
 	}
 	
-	String interpretacion() {
+	public String interpretacion() {
 		return getInterpretacion();
 	}
 	

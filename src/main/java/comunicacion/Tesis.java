@@ -48,11 +48,11 @@ public class Tesis extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	
-	int palabrasTotales(int par) {
+	public int palabrasTotales(int par) {
 		return (getPaginas()*5)*par;
 	}
 	
-	String interpretacion() {
+	public String interpretacion() {
 		return getInterpretacion();
 	}
 	

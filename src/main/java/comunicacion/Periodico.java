@@ -31,11 +31,11 @@ public class Periodico extends Escrito{
 	}
 	
 	
-	int palabrasTotales(int par) {
+	public int palabrasTotales(int par) {
 		return (getPaginas()*10)*par;
 	}
 	
-	String interpretacion() {
+	public String interpretacion() {
 		return getInterpretacion();
 	}
 	
